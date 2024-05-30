@@ -1,5 +1,7 @@
 main {
   margin-top: 60px;
+  display: flex;
+  flex-direction: column;
 }
 
 main h1 {
@@ -27,3 +29,46 @@ main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
 }
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.item{
+/* flex-shrink: 2;
+flex-grow: 2; */
+flex: 1;
+margin: 10px;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.groupCol {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.item-double{
+  flex: 2;
+  margin: 10px;
+
+  /* flex-shrink: 1;
+  flex-grow: 1; */
+}
+
+.images-block{
+background-color: #5c4f41;
+justify-content: center;
+}
+
+.images-block img{
+margin:10px;
+width: 15%;
+}
+
